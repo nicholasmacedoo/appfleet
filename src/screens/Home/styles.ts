@@ -9,3 +9,18 @@ export const Content = styled.View`
     flex: 1;
     padding: 32px;
 `
+export const Label = styled.Text`
+    color: ${props => props.theme.COLORS.GRAY_400};
+    font-size: ${props => props.theme.FONT_SIZE.SM}px;
+    font-family: ${props => props.theme.FONT_FAMILY.REGULAR};
+
+    margin-top: 32px;
+    text-align: center;
+`
+export const Title = styled.Text`
+    color: ${props => props.theme.COLORS.WHITE};
+    font-size: ${props => props.theme.FONT_SIZE.MD}px;
+    font-family: ${props => props.theme.FONT_FAMILY.BOLD};
+
+    margin-bottom: 12px;
+`
